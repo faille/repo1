@@ -40,8 +40,7 @@ def init():
     return board
 
 def play():
-    pasvalide = True
-    while pasvalide:
+    while True:
         x = int(input("x : "))
         y = int(input("y : "))
         if x >= 0 and x <=4 and y >= 0 and y <=4:
